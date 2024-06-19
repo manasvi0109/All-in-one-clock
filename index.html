@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="tab_box">
+            <button class="tab_btn active">Alarm</button>
+            <button class="tab_btn">Clock</button>
+            <button class="tab_btn">Timer</button>
+            <button class="tab_btn">Stopwatch</button>
+            <div class="line"></div>
+        </div>
+        <div class="content_box">
+            <div class="content active">
+                <h2>Alarm</h2>
+                <div class="clock-content">
+                    <img src="images/clock.png" alt="clock">
+                    <h1>00:00:00 PM</h1>
+                    <div class="time">
+                        <div class="column1">
+                            <select>
+                                <option value="Hour" selected hidden>Hr</option>
+                                
+                            </select>
+                        </div>
+                        <div class="column1">
+                            <select>
+                                <option value="Minute" selected hidden>Min</option>
+                                
+                            </select>
+                        </div>
+                        <div class="column1">
+                            <select>
+                                <option value="AM/PM" selected hidden>AM/PM</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+                    <button class="set-alarm-btn">Set Alarm</button>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Clock</h2>
+                <div id="clock-container">
+                    <div id="hour"></div>
+                    <div id="minute"></div>
+                    <div id="second"></div>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Timer</h2>
+                <div class="timer-display">
+                    00 : 00 : 00 : 000
+                </div>
+                <div class="buttons">
+                    <button id="start-timer">Start</button>
+                    <button id="pause-timer">Pause</button>
+                    <button id="reset-timer">Reset</button>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Stopwatch</h2>
+                <div class="stopwatch">
+                <p>Coming Soon.....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
