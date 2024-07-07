@@ -2,6 +2,8 @@
 
 This project is a simple web application that includes various time-related functionalities such as Alarm, Clock, Timer, and Stopwatch. The Alarm and Clock functionalities are currently implemented, while the Timer and Stopwatch features are coming soon.
 
+# You can check live here 👉 https://manasvi0109.github.io/All-in-one-clock/ 
+
 ## Features
 
 - **Alarm:** Set an alarm with hour, minute, and AM/PM options.
